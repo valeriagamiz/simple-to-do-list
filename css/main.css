@@ -1,0 +1,13 @@
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.strike {
+  text-decoration: line-through;
+}
